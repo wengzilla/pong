@@ -41,7 +41,7 @@ class Pong < Hasu::Window
       @ball = Ball.new
     end
 
-    if false
+    if true
       if @left_paddle.y < @ball.y
         @left_paddle.down!
       end
